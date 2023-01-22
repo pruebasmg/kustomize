@@ -11,6 +11,7 @@ spec:
     metadata:
       labels:
         component: mongo
+        org: KodeKloud
     spec:
       containers:
         - name: mongo

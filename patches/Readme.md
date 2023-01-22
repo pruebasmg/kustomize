@@ -1,7 +1,3 @@
-Ahora nos pregunta.
- - Cuantos pods tiene la api.
+- Pregunta:
 
- y vemos que se agrego el api-patch donde a las claras nos agrega el memcached.
-
-- Donde va a estar montado el volumen de mongo.
- - rta. en /data/db
+En el fichero api-patch creamos un merge strategic para remover el memcached container.

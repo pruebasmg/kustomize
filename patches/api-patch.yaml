@@ -6,5 +6,5 @@ spec:
   template:
     spec:
       containers:
-        - name: memcached
-          image: memcached
+        - $patch: delete
+          name: memcached
