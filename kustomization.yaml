@@ -3,11 +3,6 @@ kind: Kustomization
 
 # kubernetes resources to be managed by kustomize
 resources:
-  - db/db-config.yaml
-  - db/db-depl.yaml
-  - db/db-service.yaml
-  - message-broker/rabbitmq-config.yaml
-  - message-broker/rabbitmq-depl.yaml
-  - message-broker/rabbitmq-service.yaml
-  - nginx/nginx-depl.yaml
-  - nginx/nginx-service.yaml
+  - db/
+  - message-broker/
+  - nginx/
