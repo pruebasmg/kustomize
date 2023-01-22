@@ -14,5 +14,6 @@ patches:
 ```
 
 y correr
-
+```
 kubectl apply -f /root/code/k8s
+```
