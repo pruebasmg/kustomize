@@ -1,15 +1,6 @@
-- Primero.
+Ahora nos pregunta.
+ - Cuantos pods tiene la api.
 
-se nos dice cuantas replicas va a tener el nginx.
-
-nos fijamos, y luego de patchear tendra 3.
-
-Luego.
-
-- cuantas labels seran aplicadas hacia mongo.
-
-nos fijamos que se aplicara un patch, y las contamos.
-
-- cual es el targetport del mongo-cluster-ip-service
+ y vemos que se agrego el api-patch donde a las claras nos agrega el memcached.
 
 
